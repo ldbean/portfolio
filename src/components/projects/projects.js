@@ -3,8 +3,7 @@ import Thumbnail from "../thumbnail/thumbnail";
 
 function Projects(props) {
     return (
-      <div className="Projects">
-        <h1>Projects</h1>
+      <div id="project-grid" className="d-flex flex-wrap mt-5">
         <Thumbnail
           link="/pierced"
           image="https://picsum.photos/300/300"
@@ -19,6 +18,66 @@ function Projects(props) {
         />
         <Thumbnail
           link="/"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
+          image="https://picsum.photos/300/300"
+          title="Pierced"
+          category="Sculpts"
+        />
+        <Thumbnail
+          link="/pierced"
           image="https://picsum.photos/300/300"
           title="Pierced"
           category="Sculpts"
