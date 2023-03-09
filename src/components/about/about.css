@@ -1,0 +1,8 @@
+.about {
+    display: flex;
+}
+.portrait {
+    size:100px;
+    background-color: blue;
+
+}
