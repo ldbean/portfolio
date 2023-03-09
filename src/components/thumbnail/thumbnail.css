@@ -1,0 +1,40 @@
+.project-thumbnail{
+    margin: 5px;
+    height: 200px;
+    width: 180px;
+    border: none;
+}
+.project-thumbnail:hover {
+    opacity: 70%;
+}
+.project-image {
+    width: 180px;
+    height: 200px;
+    background-size: contain;
+}
+.card {
+    justify-content: center;
+    align-items: center;
+}
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    
+    padding: 6px 10px;
+    position: absolute;
+}
+.project-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+.project-category {
+    font-size: 12px;;
+}
